@@ -14,6 +14,8 @@ All rights reserved.
 See the full license inside LICENSE file
 ```
 
+![Image](https://github.com/fvcalderan/GDScript_KMeans/blob/main/example_items/example_out.png?raw=true)
+
 ### The implementation
 
 It's a very basic implementation of the naive K-Means algorithm, so its
