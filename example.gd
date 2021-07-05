@@ -32,7 +32,7 @@ func load_dataset() -> Dictionary:
     if result_json.error == OK:
         dataframe = result_json.result
     else:
-        print("Error while trying to load data.json")
+        print("Error while trying to load JSON")
 
     # close loaded file and return dataframe dictionary
     file.close()
