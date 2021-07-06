@@ -65,7 +65,7 @@ static func fit(dataset : Array, k : int) -> Array:
             # create temporary centroid as an array of 0
             var temp_centroid : Array = []
             var total_elems_in_clus : int = 0
-            for i in range(dimension):
+            for _i in range(dimension):
                 temp_centroid.append(0)
 
             # calculate the new centroid
